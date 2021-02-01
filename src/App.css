@@ -24,7 +24,25 @@ nav ul li {
   /* border: solid; */
 }
 
-/* Homepage */
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul li a:link {
+  color: black;
+}
+
+nav ul li a:visited {
+  color: black;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* Landing Page */
 
 .Home .logo-container {
   margin: 0 auto;
@@ -43,6 +61,8 @@ nav ul li {
 .Home .about-container p {
   line-height: 40px;
 }
+
+/* Skills/Services */
 
 .services {
   background-color: #DDE5EF;
@@ -64,4 +84,49 @@ nav ul li {
   height: 150px; 
   width: auto; 
   margin: 50px;
+}
+
+/* Projects */
+
+#projects h1 {
+  margin: 0; 
+  padding: 30px;
+}
+
+#projects .projects-container img {
+  border: solid; 
+  border-width: 0.5px;
+}
+
+#projects .projects-container p {
+  line-height: 30px;
+}
+
+/* Contact */
+
+#contact {
+  background-color: #DDE5EF;
+}
+
+#contact h1 {
+  margin: 0; 
+  padding: 30px;
+}
+
+#contact form {
+  text-align: left; 
+}
+
+#contact label, #contact input, #contact textarea, #contact button {
+  margin: 7px;
+  margin-left: 30px;
+} 
+
+#contact label, #contact input {
+  width: 200px;
+}
+
+#contact textarea {
+  width: 500px; 
+  height: 300px;
 }
