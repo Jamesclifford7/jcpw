@@ -1,38 +1,67 @@
 .App {
   text-align: center;
+  margin: 0 auto; 
+  font-family: 'Montserrat', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Nav component */
+
+header {
+  border-bottom: solid; 
+  margin: 0 auto;
+  background-color: #DDE5EF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav ul {
+  list-style-type: none;
+  padding: 25px;
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav ul li {
+  display: inline;
+  margin: 0 50px 0 50px;
+  /* border: solid; */
+}
+
+/* Homepage */
+
+.Home .logo-container {
+  margin: 0 auto;
+}
+
+.Home img {
+  height: 450px;
+  width: auto; 
+}
+
+.Home .about-container {
+  width: 75%; 
+  margin: 0 auto;
+}
+
+.Home .about-container p {
+  line-height: 40px;
+}
+
+.services {
+  background-color: #DDE5EF;
+}
+
+.services h1 {
+  margin: 0; 
+  padding: 30px;
+}
+
+.services-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  flex-direction: row;
+  flex-wrap: wrap; 
+  justify-content: space-around;
+} 
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.services-container img {
+  height: 150px; 
+  width: auto; 
+  margin: 50px;
 }
