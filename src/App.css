@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  margin: 0 auto; 
+  /* margin: 0 auto; */
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -129,4 +129,65 @@ nav ul li a:hover {
 #contact textarea {
   width: 500px; 
   height: 300px;
+}
+
+@media all and (max-width: 450px) {
+  nav ul li {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    /* border: solid; */
+  }
+
+  .Home {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .Home .logo-container img {
+    height: 300px;
+  }
+
+  .Home .about-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .Home .about-container p {
+    line-height: 35px;
+  }
+
+  .services-container img {
+    margin: 45px;
+  }
+
+  #projects .projects-container img {
+    height: 200px;
+  }
+
+  #projects .projects-container p {
+    margin: 0 auto;
+    line-height: 35px;
+    width: 80%;
+    padding-bottom: 35px;
+    padding-top: 20px;
+  }
+
+  #contact form {
+    text-align: center;
+  }
+
+  #contact textarea {
+    width: 95%;
+    height: 400px;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  #contact label, #contact input, #contact button {
+    margin: 10px; 
+    margin-left: 0px;
+  }
+
 }
