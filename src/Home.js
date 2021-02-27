@@ -5,8 +5,9 @@ import html5logo from './Images/HTML5_Logo_512.png'
 import css3logo from './Images/CSS3_logo_and_wordmark.svg.png'
 import javascriptlogo from './Images/JavaScript-Logo3.png'
 import reactlogo from './Images/react_logo2.png'
-import musiconnectimage from './Images/musiconnect-photo1.png'
-import rentitimage from './Images/Rentit-Landing-Screenshot.png'
+import musiconnectimage from './Images/Musiconnect-Screenshot-Landing.png'
+import rentitimage from './Images/Rentit-Screenshot-Landing.png'
+import aqiimage from './Images/AQI-Lookup-Screenshot1.png'
 import jcimage from './Images/0197x72_0197x72-R1-034-15A.jpg'
 
 function Home() {
@@ -40,6 +41,24 @@ function Home() {
                     <h1>Projects</h1>
                     <div className="projects-container">
                         <div className="project">
+                            <h2>"Rentit"</h2>
+                            <img src={rentitimage} alt="rentit landing page"/>
+                            <h4>Links:</h4>
+                            <div className="link">
+                                <h5>Live App: </h5><a href="https://rentit-app.vercel.app/" target="_blank" rel="noreferrer">https://rentit-app.vercel.app/</a>
+                            </div>
+                            <div className="link">
+                                <h5>Client Repo: </h5><a href="https://github.com/Jamesclifford7/rentit-app" target="_blank" rel="noreferrer">https://github.com/Jamesclifford7/rentit-app</a>
+                            </div>
+                            <div className="link">
+                                <h5>Server Repo: </h5><a href="https://github.com/Jamesclifford7/rentit-server" target="_blank" rel="noreferrer">https://github.com/Jamesclifford7/rentit-server</a>
+                            </div>
+                            <h4>Description:</h4>
+                            <p>Rentit allows users to rent items from other users in their city or neighborhood. Login using demo credentials (or sign up), search for available items, select an item and specify rental period, then use demo credit card information to check out. Users are also able to list their own items to rent.</p>
+                            <h4>Technologies Used:</h4>
+                            <p>Built with React.js (JavaScript, HTML, and CSS), Node.js, Express.js, and PostgreSQL.</p>
+                        </div>
+                        <div className="project">
                             <h2>"Musiconnect"</h2>
                             <img src={musiconnectimage} alt="musiconnect landing page"/>
                             <h4>Links:</h4>
@@ -58,22 +77,19 @@ function Home() {
                             <p>Built with React.js (JavaScript, HTML, and CSS), Node.js, Express.js, and PostgreSQL.</p>
                         </div>
                         <div className="project">
-                            <h2>"Rentit"</h2>
-                            <img src={rentitimage} alt="rentit landing page"/>
+                            <h2>"AQI Lookup"</h2>
+                            <img src={aqiimage} alt="AQI landing page"/>
                             <h4>Links:</h4>
                             <div className="link">
-                                <h5>Live App: </h5><a href="https://rentit-app.vercel.app/" target="_blank" rel="noreferrer">https://rentit-app.vercel.app/</a>
+                                <h5>Live App: </h5><a href="https://jamesclifford7.github.io/AQI-app/" target="_blank" rel="noreferrer">https://jamesclifford7.github.io/AQI-app/</a>
                             </div>
                             <div className="link">
-                                <h5>Client Repo: </h5><a href="https://github.com/Jamesclifford7/rentit-app" target="_blank" rel="noreferrer">https://github.com/Jamesclifford7/rentit-app</a>
-                            </div>
-                            <div className="link">
-                                <h5>Server Repo: </h5><a href="https://github.com/Jamesclifford7/rentit-server" target="_blank" rel="noreferrer">https://github.com/Jamesclifford7/rentit-server</a>
+                                <h5>Client Repo: </h5><a href="https://github.com/Jamesclifford7/AQI-app" target="_blank" rel="noreferrer">https://github.com/Jamesclifford7/AQI-app</a>
                             </div>
                             <h4>Description:</h4>
-                            <p>Rentit allows users to rent items from other users in their city or neighborhood. Login using demo credentials (or sign up), search for available items, select an item and specify rental period, then use demo credit card information to check out. Users are also able to list their own items to rent.</p>
+                            <p>Enter any U.S. City and State, and retrieve the current Air Quality Index and current temperature for that location. There is also a page that explains the Air Quality Index and a Contact page.</p>
                             <h4>Technologies Used:</h4>
-                            <p>Built with React.js (JavaScript, HTML, and CSS), Node.js, Express.js, and PostgreSQL.</p>
+                            <p>Built with HTML, CSS, and JavaScript (jQuery).</p>
                         </div>
                     </div>
                 </div>
