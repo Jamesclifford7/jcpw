@@ -162,20 +162,34 @@ nav ul li a:hover {
   width: auto;
   border: solid;
   border-width: 0.5px;
+  margin-top: 10px;
 }
 
 #contact label, #contact input, #contact textarea, #contact button {
   margin: 7px;
-  margin-left: 30px;
+  /* margin-left: 30px; */
 } 
 
 #contact label, #contact input {
   width: 200px;
-}
+  height: 20px; 
+} 
 
 #contact textarea {
   width: 500px; 
   height: 300px;
+}
+
+#contact .contact-container .contact-info div {
+  padding: 12px;
+}
+
+#contact .contact-container .contact-info div svg, #contact .contact-container .contact-info div h4 {
+  display: inline;
+}
+
+#contact .contact-container .contact-info div svg {
+  margin-right: 8px;
 }
 
 /* media query for phone */

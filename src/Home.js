@@ -9,6 +9,10 @@ import musiconnectimage from './Images/Musiconnect-Screenshot-Landing.png'
 import rentitimage from './Images/Rentit-Screenshot-Landing.png'
 import aqiimage from './Images/AQI-Lookup-Screenshot1.png'
 import jcimage from './Images/0197x72_0197x72-R1-034-15A.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFortAwesome, faGithub } from "@fortawesome/free-brands-svg-icons"
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
 
 function Home() {
     return (
@@ -108,9 +112,15 @@ function Home() {
                         </form>
                         <div className="contact-info">
                             {/* email, github, linkedin */}
-                            <h4>Email: jamesclifforddev@gmail.com</h4>
-                            <h4>Github: <a href="https://github.com/Jamesclifford7" target="_blank" rel="noreferrer">https://github.com/Jamesclifford7</a></h4>
-                            <h4>LinkedIn: <a href="https://www.linkedin.com/in/james-clifford-developer/" target="_blank" rel="noreferrer">https://www.linkedin.com/in/james-clifford-developer/</a></h4>
+                            <div>
+                                <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon><h4>Email: jamesclifforddev@gmail.com</h4>
+                            </div>
+                            <div>
+                                <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon><h4>Github: <a href="https://github.com/Jamesclifford7" target="_blank" rel="noreferrer">https://github.com/Jamesclifford7</a></h4>
+                            </div>
+                            <div>
+                                <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon><h4>LinkedIn: <a href="https://www.linkedin.com/in/james-clifford-developer/" target="_blank" rel="noreferrer">https://www.linkedin.com/in/james-clifford-developer/</a></h4>
+                            </div>
                             <img src={jcimage} alt="J in Idyllwild" />
                         </div>
                     </div>
