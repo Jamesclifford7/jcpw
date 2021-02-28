@@ -10,7 +10,7 @@ import rentitimage from './Images/Rentit-Screenshot-Landing.png'
 import aqiimage from './Images/AQI-Lookup-Screenshot1.png'
 import jcimage from './Images/0197x72_0197x72-R1-034-15A.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFortAwesome, faGithub } from "@fortawesome/free-brands-svg-icons"
+import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
 
